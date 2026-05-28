@@ -1,0 +1,710 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.59f1c1 (6f0f5d6fe989) revision 7278429'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\Unity本体\2022.3.59f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+F:/Unity/项目/My project (15)
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53385
+Successfully changed project path to: F:/Unity/项目/My project (15)
+F:/Unity/项目/My project (15)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24032]  Target information:
+
+Player connection [24032]  * "[IP] 10.32.31.58 [Port] 0 [Flags] 2 [Guid] 3961097756 [EditorId] 3961097756 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-5E89IE3B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24032]  * "[IP] 26.250.108.36 [Port] 0 [Flags] 2 [Guid] 3961097756 [EditorId] 3961097756 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-5E89IE3B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24032] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24032] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 16.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.59f1c1 (6f0f5d6fe989)
+[Subsystems] Discovering subsystems at path F:/Unity本体/2022.3.59f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity/项目/My project (15)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5994 MB
+    Driver:   32.0.15.9597
+Initialize mono
+Mono path[0] = 'F:/Unity本体/2022.3.59f1c1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity本体/2022.3.59f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Unity本体/2022.3.59f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity本体/2022.3.59f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/Unity本体/2022.3.59f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004409 seconds.
+- Loaded All Assemblies, in  0.382 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 358 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.625 seconds
+Domain Reload Profiling: 1006ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (126ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (625ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (585ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (427ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.059 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.103 seconds
+Domain Reload Profiling: 2162ms
+	BeginReloadAssembly (297ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (637ms)
+		LoadAssemblies (563ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (294ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (237ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1104ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (902ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (738ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 7.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3610 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (57.1 KB). Loaded Objects now: 4073.
+Memory consumption went from 133.9 MB to 133.9 MB.
+Total: 4.142200 ms (FindLiveObjects: 0.353200 ms CreateObjectMapping: 0.157700 ms MarkObjects: 3.525000 ms  DeleteObjects: 0.104900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.469 seconds
+A scripted class has a different serialization layout when loading. (Read 12 bytes but expected 24 bytes)
+Did you change any of your scripts when entering playmode?
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.887 seconds
+Domain Reload Profiling: 1356ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (288ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (71ms)
+			TypeCache.Refresh (57ms)
+				TypeCache.ScanAssembly (49ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (888ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (385ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 4.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3520 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (35.2 KB). Loaded Objects now: 4076.
+Memory consumption went from 131.6 MB to 131.6 MB.
+Total: 2.455100 ms (FindLiveObjects: 0.171300 ms CreateObjectMapping: 0.076200 ms MarkObjects: 2.165300 ms  DeleteObjects: 0.041700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/IPrebuildSceneSetup.cs: 086a540b86c9ccf5ce0a23935a64c98d -> c89711320cb5af11897ec50fd61d4419
+  custom:scripting/monoscript/fileName/EditorAssembliesProxy.cs: 23426c61d1cfec53ec65b1ed2f77c773 -> ef0f2d44f3e723650bf58ba30866667b
+  custom:scripting/monoscript/fileName/OuterUnityTestActionCommand.cs: eacf156fb6f74d2f6b697bf47e9a72eb -> 36c13d7d2a2c5c2f372e7b1c0cc06d4d
+  custom:scripting/monoscript/fileName/TestJobDataHolder.cs: 1e3b4dec54d5610ff8a852c0a9fccf2b -> 2c9edeeac80ff44e86cac8087411d260
+  custom:scripting/monoscript/fileName/EditModeRunnerCallback.cs: 8a8dedaa2bec26f26744df4ec8e2f191 -> 
+  custom:scripting/monoscript/fileName/EnterPlayMode.cs: 3cb26e64a9bc927aa1556d517c8e8a78 -> c730bf9ff77514bb260ba9933378e49c
+  custom:scripting/monoscript/fileName/Filter.cs: 18ef22850e69a0e3e97548ae5b255f92 -> 935824dbebf762a19f2d4c4751625fe2
+  custom:scripting/monoscript/fileName/UnityTearDownAttribute.cs: 4a3d30720366843ca221fd554845c187 -> d90d4ba0821a80f48bd6cec8eab8964f
+  custom:scripting/monoscript/fileName/RemotePlayerTestController.cs: 83176596b43ae79e65d8c3ccfd7c1c75 -> e65e7856c7b5238a13243fffbf64f7eb
+  custom:scripting/monoscript/fileName/ConditionalIgnoreAttribute.cs: 507a506f130880469465e0381c429447 -> 9f2f3d4c6b56d5f470ccdd0e1820d51b
+  custom:scripting/monoscript/fileName/TestMustExpectAllLogsAttribute.cs: f1224ac9ffb401dcd2c905e6a783da06 -> cdf1c75549affd080e0ddbde5bcb7c34
+  custom:scripting/monoscript/fileName/TestBuildAssemblyFilter.cs: e3ae3b9dfa7b065b08d520845d4f070d -> 056870da734fd8ecf77d00737a22149f
+  custom:scripting/monoscript/fileName/ITestRunnerListener.cs: 07f2f49d67775d1bad20bc1589a5769d -> d52675266925b8e603f210be3981d59b
+  custom:scripting/monoscript/fileName/IEditorCompilationInterfaceProxy.cs: e8a39ed00046a7b93647d4de1a3e0e00 -> b1e49de3ac2ed1feea91c5f6846d6e49
+  custom:scripting/monoscript/fileName/EnumerableRepeatedTestCommand.cs: 229b55de651d474bc2ca3733382eef36 -> dbdc4517e80e66a31f48ce40e06931f2
+  custom:scripting/monoscript/fileName/IPostBuildCleanup.cs: 7bc004ae26b110cd32d3401b0981f815 -> 8d43f6dbc44addb43106f91d15047771
+  custom:scripting/monoscript/fileName/CommandLineOption.cs: 6edb38500ec7cf4724c442e3a5d14145 -> fe5c47482048ab8fd4cc7763e33b8718
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TestListTreeViewDataSource.cs: 8b5a59ec2d06d36e63ce53a34e1d591e -> 153f0d5d9a6099f80f6d26e9c0ad6b7d
+  custom:scripting/monoscript/fileName/CommandLineOptionSet.cs: 03da366065e9825e3576848b6c8dd605 -> 13e48170f3a8b32dd0cc86d3beef6c12
+  custom:scripting/monoscript/fileName/ITestRunCallback.cs: 0ac8617cc2dc9780c575b6eb03f6d505 -> 7d90e4d27cccfe89ef24a93578e15a74
+  custom:scripting/monoscript/fileName/IEditorAssembliesProxy.cs: 81289fa7514ad1168ecb67afff27720d -> 8586f95fda82b1fa948b8ac0ebb50a9d
+  custom:scripting/monoscript/fileName/AndroidPlatformSetup.cs: 56c28d48cf01b1b2c96f64a6827ffac4 -> 67d5fa212608c900d88b1544a5f49997
+  custom:scripting/monoscript/fileName/RenderingOptions.cs: 00a614b6ec7a1eaa81faf5ebc88cd41a -> a84cebfad0b53e3dbf0202be3cc1d6d3
+  custom:scripting/monoscript/fileName/WorkItemFactory.cs: 9cd58300f748e3250316447e9d2a8d06 -> d8b2e380888ccc980a475a01f04d7a45
+  custom:scripting/monoscript/fileName/PlayerLauncherContextSettings.cs: 89c041e42e3e6c336ae4ddeb40f2d12f -> 3c0a34dce28ade8f88b3e213fadb0738
+  custom:scripting/monoscript/fileName/RunSettings.cs: c8ba576640d505c59ca4d995eb1b55e6 -> 6770f3fdaf287e73ff6c63f28a5a7e92
+  custom:scripting/monoscript/fileName/UnhandledLogMessageException.cs: d6d6ca25090fc3eec22959040bde30f3 -> fa6ee6fe2a221a71f213304ae56898c7
+  custom:scripting/monoscript/fileName/EnumerableApplyChangesToContextCommand.cs: 7e82e96f40f2bf4118aab6f6aef1d287 -> c2aa6cedc66892dd581c50a4d9b6a147
+  custom:scripting/monoscript/fileName/RecompileScripts.cs: 33cdfe80e47d8b05e5ee4c6c33b4993e -> 73e345449efb1420f34aad9debcdf2bd
+  custom:scripting/monoscript/fileName/DelayedCallback.cs: 4d96f98a05296a6e495fa9916bc0a91b -> e88c5396d33adcd6404b4cb8a051b2b1
+  custom:scripting/monoscript/fileName/OrderedTestSuiteModifier.cs: ddbca70bf46f5e4ca706b058ef23253f -> 6a8006d91a7636d39c6731494060c3c2
+  custom:scripting/monoscript/fileName/DefaultTestWorkItem.cs: df6f5a85dcc29cabfe426927cfff8766 -> f906b4fb5b78cb9d23a07212620919d9
+  custom:scripting/monoscript/fileName/TestRunnerApiMapper.cs: 213999ba10693518027e8ab0204d1885 -> 241489454095fad1d1d89166ee62820f
+  custom:scripting/monoscript/fileName/LegacyPlayerRunTask.cs: 328c044124055242f6ddb7aa596ab1d3 -> 148e0500b0761261bc418d25c26e82b1
+  custom:scripting/monoscript/fileName/Vector3ComparerWithEqualsOperator.cs: 6b9a33545ada02177d266ed1f5b19290 -> c497cde63ec72672e5f69e70b932688f
+  custom:scripting/monoscript/fileName/IGuiHelper.cs: c60290192a780a358cb4d2eed657f7f8 -> da57d3fb0f8ace42d5b01eed25e9e3d5
+  custom:scripting/monoscript/fileName/OutOfOrderExpectedLogMessageException.cs: 22c4a953865c583fd55d80a54c5d6c18 -> 4ff78bac16cc86124e588c20ad3ddba7
+  custom:scripting/monoscript/fileName/IPlatformSetup.cs: 9a0668684da27d1ddefa88d99d869448 -> 6f20476898784a15f8b8eb28653a67fd
+  custom:scripting/monoscript/fileName/TestTreeViewItem.cs: 3239fe248332ddd6a904d9cb0680e538 -> aae3d62f4daf680133c1c18c7814d15e
+  custom:scripting/monoscript/fileName/AssemblyLoadProxy.cs: c6dff8352382292b9959041d98303a41 -> 0f3a4ee005eb8f7b33161c2ba6196e00
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/SaveUndoIndexTask.cs: ab03f94eed1b9c2e86cabe91ffdb6ab8 -> 6e0bcd5f418cf8184993174ac732fff4
+  custom:scripting/monoscript/fileName/TestResultRenderer.cs: 9bb52db8cdd7fbc7b27d62af73d00df8 -> 2e8123de6d2eea4d42efb7a87e150b27
+  custom:scripting/monoscript/fileName/WaitForDomainReload.cs: ec74674e8cae527fdeb410a81a4658a3 -> b6033700f0adcf3b23782f04c42e269c
+  custom:scripting/monoscript/fileName/ITestSettingsDeserializer.cs: e43933e90cb98a9555f922952cdb833f -> 22e37de7af2cea07971d0ba87110dad7
+  custom:scripting/monoscript/fileName/UnityTestAssemblyBuilder.cs: 31ba4a3e8e59a00929481bc92cded780 -> 5e02e71819f544263f933dbf6516d49f
+  custom:scripting/monoscript/fileName/AnalyticsTestCallback.cs: 86b513e5c36f0343183de924372e6da6 -> 70c2658c96c40ebe349fda85c81dae6e
+  custom:scripting/monoscript/fileName/TestTaskBase.cs: 4b3bfcc0ce488c09e9c983c955b234c0 -> 162ca0c58961a22b2d7f2a866ccb62df
+  custom:scripting/monoscript/fileName/TestLauncherBase.cs: 55b4d99610fbeb9ecb7ee6ead3251104 -> c78237b225a855d3af10df4cd8d6a1b2
+  custom:scripting/monoscript/fileName/FloatEqualityComparer.cs: 4dac02b3f722be0497415c960455318c -> 6ddc5d5b0944c660e6b695f37c9febc8
+  custom:scripting/monoscript/fileName/ResultSummarizer.cs: 582246d60a2f8f460d380a74acbf04e5 -> fcfdcb2adeeb82cb8f411b44b44abdb0
+  custom:scripting/monoscript/fileName/CompositeWorkItem.cs: 77037823112276c67676f1e42edf1cd2 -> bc884a89fde61fa75209209a03bbd836
+  custom:scripting/monoscript/fileName/RunFinishedData.cs: 35b8f95dad4fefe115ad61c2c01125ab -> a22f15c3a79d1f15ccc31ec29ab37874
+  custom:scripting/monoscript/fileName/PlayModeTestListGUI.cs: 06fa04893405baa089efbd0d5d9148f5 -> 9528035223f9376ea8c5bf32da2d30c1
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/UnityTestProtocolListener.cs: 031f67bcc950e88772c7e00661691db9 -> 0d4d2ab58d3a081f00c0f200ee8696be
+  custom:scripting/monoscript/fileName/MonoBehaviourTest.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TestResultRendererCallback.cs: 11a504294abe84b81ed7535d2d6b52d7 -> 215106b260625bb3e26681b849d9307d
+  custom:scripting/monoscript/fileName/PlatformSpecificSetup.cs: c7583018fa54cbb13353f07300f73380 -> 0a7f9c0b27ae370d8bd5d3df4916ae28
+  custom:scripting/monoscript/fileName/EditModeLauncherContextSettings.cs: 716154923321c522b7f6492b24dc4629 -> d1e413330d98a9101237ccbe91f95dea
+  custom:scripting/monoscript/fileName/PlayerQuitHandler.cs: b367910cee7b2e682885ab95e27ec0ea -> b4085dee8fd70ae04ac96945fafed489
+  custom:scripting/monoscript/fileName/PrebuildSetupTask.cs: c7a55bff004702e0146f0b7de9de0c32 -> a4e888a510b1441a257b12183e59237b
+  custom:scripting/monoscript/fileName/UnexpectedLogMessageException.cs: eb4b453bac6ce1ffa84fa1fcbecd8818 -> a7bbf32861c66018271b093fc1d1061b
+  custom:scripting/monoscript/fileName/RerunCallback.cs: ffe49cf602017087ffa7749d06513ace -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ITestListCache.cs: 530322f74ae4ee44bba33a2f253d3260 -> 93f202374a8dd6602503d990ab2feb72
+  custom:scripting/monoscript/fileName/TestRunCallbackAttribute.cs: 0f465317bd2bfaae92f90a6ee84c0d18 -> c61459d4a70eab5bd767d5a1f82f55d8
+  custom:scripting/monoscript/fileName/PrebuildSetupAttributeFinder.cs: 2bad1feb91972325181c65f0d7b65426 -> 1f975f3a70c8f9747da919735d84e6c3
+  custom:scripting/monoscript/fileName/TestExtensions.cs: 06f4dc0f3112fa2e5582ace2497b1b80 -> 8e47deac44d7b87eaa5df5d00556dc15
+  custom:scripting/monoscript/fileName/TestEnumeratorWrapper.cs: 3f82598f123760f637b0f70a1f287d77 -> 3e969f8448dc5644f60fbcb6f1badbcb
+  custom:scripting/monoscript/fileName/LogWriter.cs: a4f5ec34386b4e23f87b43dd16f6db46 -> 89105d9cfbe59e79a996dde998b3e7ff
+  custom:scripting/monoscript/fileName/AttributeHelper.cs: 9458f4b34c0ac14db5c169abc8e43f94 -> dcab3630cb119e1a5f7f9c7b24677e49
+  custom:scripting/monoscript/fileName/TestRunCanceledException.cs: 95340416bb18b4fa3930cdab2cc1fc66 -> ff7dc6bce365deb50fafe94b823009cb
+  custom:scripting/monoscript/fileName/ISettingsBuilder.cs: 519472d4601ec620807556de1c3db699 -> af84c62ea6a033820a24a2d04c70d5c3
+  custom:scripting/monoscript/fileName/Vector4ComparerWithEqualsOperator.cs: 3cde4a46f80e6bcedaef4297c8060490 -> 982db4358832ddfb456522b96543f1da
+  custom:scripting/monoscript/fileName/UnityTestExecutionContext.cs: eca56c04b69a8399029cc9730daae5fd -> 4c0ef8e8d96fc20b3ec58c9447d6ec92
+  custom:scripting/monoscript/fileName/SaveModiedSceneTask.cs: 135adac13be698ff4439d6c6268aa5b8 -> 
+  custom:scripting/monoscript/fileName/TestSettingsDeserializer.cs: a44271a81256da8d6d9195e1628af709 -> 2daa2d89ea5f024d33cb1e72a3d35d63
+  custom:scripting/monoscript/fileName/EditModeTestListGUI.cs: a98030493fb98a8b991f604a2765c4e5 -> 8831f0ca2dcd13614282b516af72c688
+  custom:scripting/monoscript/fileName/TestResultSerializer.cs: 52a416bb91eef89cbb19dd3cf67adb65 -> b75c8de5ed0cf8b4071350488249260d
+  custom:scripting/monoscript/fileName/BeforeAfterTestCommandState.cs: ffd46073254dc1bdb5c1bca6005d67d9 -> 590f9af42d8f6706b758d6c33b25bf7d
+  custom:scripting/monoscript/fileName/ICommandLineOption.cs: 15f4aea1cab88c9b000f817011eeb0a4 -> 71c726b35ce91defe8d1478ca35df0c3
+  custom:scripting/monoscript/fileName/EditModePCHelper.cs: fed3c3b34697ace66d06f26c80e9297a -> e16a214ddb2d161f4792170cb0c8e6aa
+  custom:scripting/monoscript/fileName/AssemblyNameFilter.cs: 6517804d9019b844c3f33c3b43a18f84 -> ce7ef29746fb23841833950bb87cfa6a
+  custom:scripting/monoscript/fileName/RemotePlayerLogController.cs: 6007c2a9667c47ca237ace4f2531438b -> 158b55f2a8781eb1cac7ac26acd42fc6
+  custom:scripting/monoscript/fileName/EnumerableTestState.cs: 074d7b301977647491f399c62e52cbc1 -> 30e3efb82d3f99d65cdecdd2f0bc0194
+  custom:scripting/monoscript/fileName/UnityTestAssemblyRunner.cs: 3816e248a2cfe06e2622e0204123f53a -> 6329fd25aa4b3ce344b8f9506a5c2047
+  custom:scripting/monoscript/fileName/ITestPlayerBuildModifier.cs: 144d61bec4e604c687a559324e865570 -> fe113c86bde5fdad424c8cc5e51fe0a4
+  custom:scripting/monoscript/fileName/RemoteTestResultDataFactory.cs: 82b227499ad613fb85cbd7542a960c8c -> 875f30f4d57949231d64836d9e348a72
+  custom:scripting/monoscript/fileName/UnityTestAttribute.cs: f0f5f36d5b331df20c3357ff1637e397 -> a53f050fb661d50bb6c962963a554f8e
+  custom:scripting/monoscript/fileName/TestListCache.cs: 8e95164bb40beaf2361efc98dc17a66b -> ff7c7e6ac29ad86c5fe33a64ed0d2f4f
+  custom:scripting/monoscript/fileName/UnityTestMethodCommand.cs: adc652ef2db502396e2bc23b9d9a66f3 -> ccfa8ff8b49ded2664d646e8ee3d5ff4
+  custom:scripting/monoscript/fileName/ITestRunnerApi.cs: 7ab503b15e3438e134c0702f000eb0a9 -> a476c74c9cbf5732bdfc8c88b9702476
+  custom:scripting/monoscript/fileName/Vector4EqualityComparer.cs: 2b4abe9ea592b7513d6aeaf121d66f76 -> 998bf018f3e79a3b4501bebf13133ef3
+  custom:scripting/monoscript/fileName/EditorLoadedTestAssemblyProvider.cs: 30976bb8f0671594f080cfda4f365c0a -> 406b39f61e53aa4b6c435e30af6b5276
+  custom:scripting/monoscript/fileName/Utils.cs: ec85545b69de0c6ab326957d9b045d1a -> 40c528c300bfc0733192292a788cb076
+  custom:scripting/monoscript/fileName/ResultsWriter.cs: 894aad14112682a79dfd6249bc05191f -> 746214782064f32efde31c48d7caa76f
+  custom:scripting/monoscript/fileName/LuminPlatformSetup.cs: a7bbd552cf00b6b349997b7d2e68359d -> e65a295a4e58fc042cc74afa9243a080
+  custom:scripting/monoscript/fileName/EditorAssemblyWrapper.cs: 1da4fb3eb1b01bdabc7899984e06e2b2 -> 8682dbb48030d53c622cd194bfa9e87d
+  custom:scripting/monoscript/fileName/RequireApiProfileAttribute.cs: 519035bad40b0361872a678d221fcd1e -> 4cce4894a0d08ef40fd237b8e50d1caa
+  custom:scripting/monoscript/fileName/CleanupVerificationTask.cs: 66002b5b43bdce8f787c2d84fc03dc42 -> 12e81b196e7eac521f1ae8e0411b3d28
+  custom:scripting/monoscript/fileName/EnumerableSetUpTearDownCommand.cs: 6c84bee1095d71c3f496285ac7de29fb -> 16b603dbb9724508977696171a42991f
+  custom:scripting/monoscript/fileName/EnumerableTestMethodCommand.cs: dfec1548954add0987599d6dd0f01df0 -> 9040b48595c4d63d6c1126d81d3f1105
+  custom:scripting/monoscript/fileName/EditorCompilationInterfaceProxy.cs: e4c0c6a3551d03ebd5ce8bc0c8444c16 -> 12bc7b3dd0ab2ff83629d76ca37d0d4d
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/TestResultAdaptor.cs: 39fb6e85727c0d47ffa8785f61586e3d -> fb4db3971d5379750cda884e7e44e3e4
+  custom:scripting/monoscript/fileName/PostBuildCleanupAttribute.cs: 31fa08dd08b1105fe7a49dcbe5b1ac85 -> 71391ff444f943d9ad8dd0d42b7ac81f
+  custom:scripting/monoscript/fileName/TestTreeData.cs: 0f4cb01478895c7c3d9e4409dc682c1d -> 1859d24be324d8fb87ab0c693d76d928
+  custom:scripting/monoscript/fileName/Vector3EqualityComparer.cs: b5ef1af8e8222802b1e616dabbbf7eb3 -> 1c8652cac1f220d6409ab1ba3f211615
+  custom:scripting/monoscript/fileName/ScriptingRuntimeProxy.cs: e5e5d36b9b276c8f6937a94b5dfabde5 -> 19d9ac4d844404a0464698120ed39275
+  custom:scripting/monoscript/fileName/RestoreTestContextAfterDomainReload.cs: f915dc737a51db5619c0ddbc3d7e4801 -> 3f8ddcbc7c316ccf5012287995780eb2
+  custom:scripting/monoscript/fileName/WindowResultUpdater.cs: 62ee47153c9bac0200ac618954dd51d8 -> 605812b0e2a9a0174e15ed86a3d5ac57
+  custom:scripting/monoscript/fileName/Icons.cs: fab81a9d523e5a61e28f0f54bbcc88b3 -> abf089f96620a0dfa1fac77a06c6c48e
+  custom:scripting/monoscript/fileName/IAssemblyWrapper.cs: c5aecaa35bc67342edbe5a12fdcda610 -> 993dbd556e2f14ec6d4f6bce6cb00191
+  custom:scripting/monoscript/fileName/UITestRunnerFilter.cs: 06335d4aeb6c8af701629dcac5fd648c -> a9e31eaec62dd508fa917eadb1c52808
+  custom:scripting/monoscript/fileName/IUtpLogger.cs: ebcfd45287927053700f4f66ff35b501 -> 1b41334d9fc4fd5edb024e0bd2a6db56
+  custom:scripting/monoscript/fileName/BuildTestTreeTask.cs: 96cb982a37fe5925168754787bdebc15 -> ca4a5380bc07f43d0ad6bc5c2ca39b4b
+  custom:scripting/monoscript/fileName/TestListGuiHelper.cs: 71c740d93b67e7419d73e22d4559dd6e -> 6d40eb061ebdba07e078b90b14eadffd
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/TestResultExtensions.cs: f40703becc02ea8bc3b6c19d19f9d745 -> 1c512e213c49ce6d72b9d37b957b9372
+  custom:scripting/monoscript/fileName/LogMatch.cs: 3705a2877c87af4c4355c7933d389895 -> fed715ef044674dde53628d58d931b50
+  custom:scripting/monoscript/fileName/TestCommandPcHelper.cs: acbadd8ac17c9074f1c7f1b037d57596 -> f958b2880473418011bc0cda18245d1e
+  custom:scripting/monoscript/fileName/CallbacksDelegatorListener.cs: b898e1166febac1e64adb534000c61f7 -> f80c4f45fed6816f24285f468af00026
+  custom:scripting/monoscript/fileName/TestRunnerWindowSettings.cs: edf34156a2b1507caf7c6651f5ea4bc3 -> fb70b758f65d0605100dbd9482b7158e
+  custom:scripting/monoscript/fileName/AnalyticsReporter.cs: c71b24da736c66608a20411bc3a519d2 -> 990f0ccd7dd9ebe56483e30a572c9394
+  custom:scripting/monoscript/fileName/TestEnumerator.cs: bf6d1620a5c6bd3f28c72bbfed80e429 -> 26328e1622cb69ba0b1e01e906e7f65f
+  custom:scripting/monoscript/fileName/EnumerableRetryTestCommand.cs: 73d6d5af06eff02f63f972c0d9d4ad7c -> b281084796eb91cc19de80f3f2b73a56
+  custom:scripting/monoscript/fileName/UtpDebuglogger.cs: 06c62e7bf4b353d0d89b78258065c40a -> 2f96cd7ac1384aa23e8238df80ef8354
+  custom:scripting/monoscript/fileName/QuaternionEqualityComparer.cs: 1bf489e3042604f863689ba3c73f9e1b -> 0787e0a336d915c2829c2f55fd970a0d
+  custom:scripting/monoscript/fileName/ITestAdaptor.cs: 2a73ddc53f1c7b5bf11396536f687ca4 -> 1f6228260995615097fc339d08bee2f4
+  custom:scripting/monoscript/fileName/ITestSuiteModifier.cs: 2c6fc66f35fdd1866881280ae909eaa5 -> 4374b14ce25f3e6c8b983b3d579e38b4
+  custom:scripting/monoscript/fileName/RemoteTestResultReciever.cs: 3396dcbdb7cfcd933b2182fbc1532e1a -> 
+  custom:scripting/monoscript/fileName/ExitPlayMode.cs: 64d4ea6d596aecaf913f45e499564e88 -> f2eb63cb1a92bddb334eb5c2d75abc43
+  custom:scripting/monoscript/fileName/IStateSerializer.cs: c5a3e7fac8482b2fe72d059b34fdea4b -> 2c22f7cb714163eee04bfe4b72ec4957
+  custom:scripting/monoscript/fileName/UnityTestProtocolStarter.cs: d1e78341b65caa27eeb465ea61128aba -> e4b107bc354fd6dcbd62420da6500b7c
+  custom:scripting/monoscript/fileName/BuildActionTaskBase.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/IEditModeTestYieldInstruction.cs: e4c6a749d843914165935ce080f657d8 -> ad49fb85f2d4ed0badb27552deac0771
+  custom:scripting/monoscript/fileName/CachingTestListProvider.cs: cac67f32d723c8745a1f511390945781 -> bfcb79acce43a93633071168c814d063
+  custom:scripting/monoscript/fileName/UnityPlatformAttribute.cs: 05ff6a4a5828d32604e864a3b44f3fb8 -> e79555e200698f1b55c6c54851cd369e
+  custom:scripting/monoscript/fileName/TestStarter.cs: e2d0587cebe915ea1c55ef726c6bd082 -> d1bc3fba65bb4735afc3828355ea6c72
+  custom:scripting/monoscript/fileName/TestPlayerBuildModifierAttribute.cs: e033609ef117a17dda08e3556f30bfa5 -> d4ffc53911ef24dec9dc901e0444a77b
+  custom:scripting/monoscript/fileName/ITestListCacheData.cs: 1c95486e8d67b5eedd3530759306c580 -> 09682e3e03141d9f43100cdaff3665eb
+  custom:scripting/monoscript/fileName/TestListCacheData.cs: 1f5a847fa8b54233f179d3f9f5a719db -> 295232838ed90f85679b2d004562d59e
+  custom:scripting/monoscript/fileName/Is.cs: 0371baf7f4d4fda1df93e36baa3a7f7c -> 6922f89182cd28e32ba48e34cda7947d
+  custom:scripting/monoscript/fileName/TestListGUIBase.cs: 3bdfe7bd156ca5d5ce7d327e313da70a -> 24d4809a020104916f1cbf5b523f10ca
+  custom:scripting/monoscript/fileName/WindowResultUpdaterDataHolder.cs: e4b0333fa05c0f3ef2128a54294a2588 -> 2de8ba1615f5d28c30d54411d42e2524
+  custom:scripting/monoscript/fileName/PlayerConnectionMessageIds.cs: a896cc1ebb022b48f652641f623e4c5c -> 2e4b7265f0eeb40e1260d00fe6e4614e
+  custom:scripting/monoscript/fileName/RemoteTestResultDataWithTestData.cs: 21f6a5ed6216bf99941b16dfe0613ec5 -> bcf701fb298ed6f8cab894b203300c37
+  custom:scripting/monoscript/fileName/SwitchPlatformSetup.cs: 86e207190212b6666c14096ec0beb845 -> 576de741bbd585688af4b8aaf70f0708
+  custom:scripting/monoscript/fileName/TestJobData.cs: dd8022c251f18f66be1e9ea8898c1c1c -> 194f4626c5a4649f7b9d85aa9d59e59a
+  custom:scripting/monoscript/fileName/RuntimeTestRunnerFilter.cs: 230571a0569274dbd5e47e4595a3be33 -> 526247a6af82c71973a55c9c5be36280
+  custom:scripting/monoscript/fileName/ITestSettings.cs: 608b72c12786bbdd128c096353cc10e2 -> 7d6676128f469c2eefb2813ec592ab4f
+  custom:scripting/monoscript/fileName/RemoteTestResultSender.cs: 570055716108540c9c34e71343ce0f03 -> 2b6acbe484994dc310d0ac406904e742
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/AttributeFinderBase.cs: b09010f5776af2a4f3460127027ca105 -> 7e104530f871143fdb60a169114dd663
+  custom:scripting/monoscript/fileName/PlaymodeLauncher.cs: a8de3b5051116e1769b8336e5ae33f81 -> 7559db6722a49842c0446e2fd98b6c97
+  custom:scripting/monoscript/fileName/ExitCallbacksDataHolder.cs: 2a73f9623aa81becb5d8d11a43747b12 -> 
+  custom:scripting/monoscript/fileName/TestAdaptorFactory.cs: ac39772b57c14123c1a057d315d0217c -> b9e4d12260befcd688940e2c80db8ee8
+  custom:scripting/monoscript/fileName/IEnumerableTestMethodCommand.cs: e89b2da6fd5c9e148c3a0687c618f62e -> 81260787415c187c9e413e476b816cd2
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AssetsDatabaseHelper.cs: 3deb384d73768aa5a87c1835c3d7553a -> e690d63c7b932a5efaeaf8c476198e75
+  custom:scripting/monoscript/fileName/PerformUndoTask.cs: a88080dc60788c59917e5a5da2beea27 -> f38e53873dc9c7e638622dda18102b41
+  custom:scripting/monoscript/fileName/RuntimeTestLauncherBase.cs: 545e0e1c1701551e51a349e0cfbf7e09 -> 9c570bd0d91da3e5211e4436ad92314b
+  custom:scripting/monoscript/fileName/TestActionCommand.cs: 9d9a215c413c4354b3d31801a3312f5a -> 753f99c04dd69dc2a43030237870dd1f
+  custom:scripting/monoscript/fileName/BaseDelegator.cs: 39f1c059498e3e1e37d5e631bbc24cc7 -> d270baecbc007d1328bc5c9991d1dea9
+  custom:scripting/monoscript/fileName/TestSettings.cs: df291dfe8fbaf1e1f1d4ae4925c14a92 -> d583ccee803a035f2d53ba29374aac19
+  custom:scripting/monoscript/fileName/TestRunCallbackListener.cs: 6d0e8c714fa72bff0fe809d3fbb8d587 -> 15fa13086a2949901b1e4a3584b83cd8
+  custom:scripting/monoscript/fileName/IOuterUnityTestAction.cs: 1f62717facda0b560b4af9da3d21fc98 -> 58e7f8b884a5d88e319b8f448f29bfdb
+  custom:scripting/monoscript/fileName/SynchronousFilter.cs: fb46e705a687283ca79c6357a2f78760 -> b84da53d6d10348793b3683f19a6d4b3
+  custom:scripting/monoscript/fileName/LegacyEditModeRunTask.cs: 2b5f09ef7f63773ca676d71969800516 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PlayerLauncherTestRunSettings.cs: 5d2b9db2556b475d527662dfc40538f1 -> ac04d6a6a9c6380f318071a2f4da8a2f
+  custom:scripting/monoscript/fileName/ActionDelegator.cs: 0b37ded58104f18659a880de95881951 -> f2eb6c2fd33630cfdd6d3183b4a2ca3f
+  custom:scripting/precompiled-assembly-types:nunit.framework: de9c6147ae45b4e3446d0e562fb3bbe3 -> 9b65488f00f148c679ae505d10b9107f
+  custom:scripting/monoscript/fileName/ITestRunnerApiMapper.cs: 864c8f6cc3985f3365e8b5f02afeb230 -> 337d02b691c8103d2eedc6b52f4f76ab
+  custom:scripting/monoscript/fileName/RerunCallbackInitializer.cs: a2ca4a4e4bb070fd30ec377e61ed66cb -> 
+  custom:scripting/monoscript/fileName/ICallbacks.cs: e6fb4966887be0b97bef44d92d561a69 -> a9c5fd289272fce7e09c7f3e5f11b8a0
+  custom:scripting/monoscript/fileName/IEditorLoadedTestAssemblyProvider.cs: 0be7fc5fa38a5453fe58cce555760ed4 -> cbb3f715010afa8cd4f0f40294bb78ba
+  custom:scripting/monoscript/fileName/TestListProvider.cs: 58a05dfe9100cc52adea57fc4a0b6c62 -> f8235933605b6a025c9638df0194bf97
+  custom:scripting/monoscript/fileName/InvalidSignatureException.cs: 293ad969d76fdecf7dc5f86949047e54 -> f250eccc836ee674127ecdee41f7a4ea
+  custom:scripting/monoscript/fileName/UnitySetUpAttribute.cs: 4ed69b5a4764c67bceaa6f04d0d8776f -> 78bcd37bf54751e70200df4ae24f405b
+  custom:scripting/monoscript/fileName/PlayModeRunnerCallback.cs: 10f699e46ae6f3eea3e1c18bf2bc25ed -> 6cd874bc3032a6eaf4228f5877b27ba0
+  custom:scripting/monoscript/fileName/ICallbacksDelegator.cs: 3824b8185f5cd32ad0de995dbcedd1e3 -> 2bfa822de05a601b9fbe2f79d4d317c0
+  custom:scripting/monoscript/fileName/TestAdaptor.cs: 8d757a7cd1f19e6976312b3b884a590f -> 486cec8559bad7c56adc699f165feb67
+  custom:scripting/monoscript/fileName/TestStartedMessage.cs: d7701e2ff178c1edd69506316a39e99f -> 2e20a681c83fd9e8634c9b938205f951
+  custom:scripting/monoscript/fileName/CallbacksDelegator.cs: c76e06d7a0a6084464f55a923795d8df -> e0dcdade48f633c0a7cebc925bd686c4
+  custom:scripting/monoscript/fileName/PlayerLauncherBuildOptions.cs: 1155187d1390024c0e84b222b67c4059 -> 39352f62028667e3cc8d13371f828f55
+  custom:scripting/monoscript/fileName/RegisterFilesForCleanupVerificationTask.cs: 89d04f0389116a1354de9cde88045aa7 -> f18fd2d946c9ea52b8232f47d6d70221
+  custom:scripting/monoscript/fileName/TestRunnerStateSerializer.cs: 68058e60ab6d5d33b7935f4205c97bb2 -> 7206f4f1eb4c5991ea76b5c39830dba4
+  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner: f5758234275f5346968d00e3b1a1c0e4 -> 25052a3fe9a34999c9f3b31d493891c5
+  custom:scripting/monoscript/fileName/LogEvent.cs: a1178cf4bd49345a2f924044f341effd -> 9bf386b9808c16608387e196f7a5e9d6
+  custom:scripting/monoscript/fileName/PlaymodeTestsController.cs: 7726dd936e1c608c494987ba2754eb47 -> 59c9d4597d46ecf4c6fbc8f49c64d0b9
+  custom:scripting/monoscript/fileName/TestListTreeViewGUI.cs: 5d4e7ac9fc0c5382f19d49599ef6cbd8 -> bf873c97e960a33b0be65a5b638e7ff5
+  custom:scripting/monoscript/fileName/TestRunnerCallback.cs: 3f7ae5a8df9bcb46078b38e8c1f1247f -> 61231fce5590e38bfc5e9165e9803d8b
+  custom:scripting/monoscript/fileName/TestJobRunner.cs: e4deb98063838e020557c338e0bd4ebb -> 1c3d9f2bfcdac33a01c4bb25c392ab4f
+  custom:scripting/monoscript/fileName/FailCommand.cs: fba5f7b9c1e8d00f41e9076aac4a1d8d -> e0622be95cb9f4c04ff53066589d6d7e
+  custom:scripting/monoscript/fileName/TestRunnerApi.cs: b582e8d89da1ce04ff5e8605fa1b5a2e -> b5c17af6fa247dfc791b512a209021d3
+  custom:scripting/monoscript/fileName/IUtpMessageReporter.cs: 02b26b8c414970dd7d96e6dcfbe9a861 -> e8e6a62b6032a5642706a62156dd8314
+  custom:scripting/monoscript/fileName/IErrorCallbacks.cs: 525b2a3e515b976057d42e4abfcec602 -> fd7a49712e8a919d38dd0fddef8872df
+  custom:scripting/monoscript/fileName/IScriptingRuntimeProxy.cs: 207c12828ef43f5ca31b3bcec485e9f7 -> c75af2a6ef439df9f19f151aeb5749ea
+  custom:scripting/monoscript/fileName/ExitCallbacks.cs: 716173503afdef0ae4c4023adba1972e -> 
+  custom:scripting/monoscript/fileName/ImmediateEnumerableCommand.cs: e79fd27a9b7f6505ae6a4aa7c72274db -> 89dd27d23dccf969b99d79611e8fed9a
+  custom:scripting/monoscript/fileName/ApplePlatformSetup.cs: 4b442da1fea709240aeaf74bde720d3c -> 0ceeffeb4378c50fe08ff9b5d16a73f3
+  custom:scripting/monoscript/fileName/LogAssert.cs: 8c30e2367a22f747fb9a538551ddb198 -> 195ab501c85f741ece9ac8b49385dcce
+  custom:scripting/monoscript/fileName/ITestListProvider.cs: 4f1a13a1dbecabb9f7515cef8fe120ff -> 0169c532d74787e64cd4163cd55d4572
+  custom:scripting/monoscript/fileName/AllocatingGCMemoryConstraint.cs: 2542b507c3de77a99c0db5c1357ffb65 -> 8b2ed7fbfb529ba318fb8425f7a81278
+  custom:scripting/monoscript/fileName/LegacyPlayModeRunTask.cs: 1ebf3ecf72354d225087c2e6d274bc6a -> 8a159c990fea520d0af36b86d243e79e
+  custom:scripting/monoscript/fileName/TestCommandBuilder.cs: 7c013615052dfed5e39b8bb914f01cb8 -> bf61faf29c0aea0c4e5d4ac76abaee13
+  custom:scripting/monoscript/fileName/ITestResultAdaptor.cs: 8d865eb70a8464f5288b9274d9abc979 -> bb9e1bbb2ff45e5a5f11e877a24721d7
+  custom:scripting/monoscript/fileName/Vector2ComparerWithEqualsOperator.cs: b6f6b1f33f1b74ed974042f5e0303f0d -> 1851f392f974d4a42efb0de68a402e9b
+  custom:scripting/monoscript/fileName/TestFinishedMessage.cs: 90745d8bb0dd1bfeebb724d118b2d483 -> ccd3538dc4059cd71acd9bfea48dbc80
+  custom:scripting/monoscript/fileName/BeforeAfterTestCommandBase.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Vector2EqualityComparer.cs: c680a095e66b9bf90931050b8b145b65 -> 4ac8b0db10bbdb7ea68d4be944c5b941
+  custom:scripting/monoscript/fileName/ITestTreeRebuildCallbacks.cs: c7090567546723c1f0a184a18f5ac1fe -> f952713f83d574a58f719696be7e52a3
+  custom:scripting/monoscript/fileName/FileCleanupVerifierTaskBase.cs: 50c4fc5e4ffaa31cb467fc75616b7129 -> 8c0e90b329ac988e22429767c222f3c6
+  custom:scripting/monoscript/fileName/UwpPlatformSetup.cs: c89362d564a60469ebbb75e8e12d340a -> b9f50f93de5f547a7eaf96f1bc58a80f
+  custom:scripting/monoscript/fileName/TestRunnerWindow.cs: beab6dc6591535c1b37ec310f1e15af0 -> 156fc89bab7bdd82ca70e07c9aa9ebbd
+  custom:scripting/monoscript/fileName/ColorEqualityComparer.cs: 9c477fa3f8fc3439b732377dad0e7a34 -> 9ae684bc4a6b608abc9f7f131bd7cb1d
+  custom:scripting/monoscript/fileName/IAsyncTestAssemblyBuilder.cs: f88864ba85e2ec28df36a1a7af1974da -> d4bd9849c11964145b1082a4b1d477fa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/RunData.cs: 91eb6697698b63fe6764d1aca25f1f65 -> 772bee3d6504258eed6027a2ae076850
+  custom:scripting/monoscript/fileName/ResultsSavingCallbacks.cs: aaf02a1e7a92c3896802c1deb489aa0f -> 96b4b28711ac58ce3dc199f3f7371922
+  custom:scripting/monoscript/fileName/RerunCallbackData.cs: 4e0f854372c4476a9269ddc9aa7c8edb -> 
+  custom:scripting/monoscript/fileName/PostbuildCleanupAttributeFinder.cs: 23c3a89f1d3b5b5defeaa7555afa30b6 -> a060814a414a9bab17671800d815861d
+  custom:scripting/monoscript/fileName/IRemoteTestResultDataFactory.cs: c24506e6d6305475bf6a430f77ac582f -> 75d430448dca0118dc834f9aa964be1e
+  custom:scripting/monoscript/fileName/TestRunnerUIFilter.cs: d43f81399e97649a77164015894ec5cc -> 15cddad256d0a7abe9cb58af110bbb72
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/IAssemblyLoadProxy.cs: df5d93b09382b84c770bb8c70be641c2 -> 10a2bd4f9f1d29ac107ff7e510533c16
+  custom:scripting/monoscript/fileName/EditModeLauncher.cs: 9a2b5bcdc6140673378e5f8105411606 -> 
+  custom:scripting/monoscript/fileName/GuiHelper.cs: ce709a7d3615bce262722b2ac52d710b -> 7bbb51d455f8994ae6185c7dee04068a
+  custom:scripting/monoscript/fileName/TestFilterSettings.cs: 4aca8235ec4f29821599af582aad0439 -> 5275be823d4854688aedadf9bf48dfa8
+  custom:scripting/monoscript/fileName/PlaymodeTestsControllerSettings.cs: e4d6c3f42e8f4d17c80242b34c68fd06 -> 90cec9ec9d50d9e797d7b80fa88b49ed
+  custom:scripting/monoscript/fileName/StacktraceFilter.cs: 0a3b08d5dc42e75c1d72e2851ec00d95 -> 2f4728b5b8f653bd2197ec8c4b722e7d
+  custom:scripting/monoscript/fileName/SettingsBuilder.cs: 2166bdf8e77dc5f252cf6909a9196c25 -> 9aeeee75a181ed82e0343a1fb6b9cead
+  custom:scripting/monoscript/fileName/SetupException.cs: fa81854dd78d6f47fd79d813aacdb097 -> 38724dd55c58f65b09d9fda4b6161021
+  custom:scripting/monoscript/fileName/LogSavingCallbacks.cs: 273a5ca581d39891e634ebf18363d22c -> 8eb93b3e2c76ea1a8acb6e2d0b5c5f91
+  custom:scripting/monoscript/fileName/ITestAdaptorFactory.cs: bdc8323a65aed17f1190c56e7c6cfc5f -> 0cef1125679c38dd172e82c8aed26eb9
+  custom:scripting/monoscript/fileName/TestListJob.cs: 12fc4e0dee9c9032467b6469e3bed3a6 -> 3a58b9c1d09f7f4ecb41254c8497b5c7
+  custom:scripting/monoscript/fileName/AssemblyWrapper.cs: 27441573157e5964a8aeb7d356d13908 -> 888ba979193ec837feef9add74101219
+  custom:scripting/monoscript/fileName/Executer.cs: 115c3fa08937a7411c01dd40a690d19e -> 3f667ef14fa1c500658713b8aa31fd85
+  custom:scripting/monoscript/fileName/PlayerTestAssemblyProvider.cs: 4e1569ec89688dc213248db31fc5f2f8 -> cbdd04f669e4e0054bad4f9d3133a10c
+  custom:scripting/monoscript/fileName/FullNameFilter.cs: 03e8efaa11fd7332f02cf89719dd5868 -> 7c49c279cb0d631ca64d8b7d70065d9c
+  custom:scripting/monoscript/fileName/AssetPipelineIgnore.cs: 0d6998b45aa259f19df735cf43f30691 -> 09786e27e9aef22fa608d3ec356f88ff
+  custom:scripting/monoscript/fileName/PrebuildSceneSetupAttribute.cs: ab58680b1420f8e2f2a2597e848d8216 -> 7863da9f66129a3cef8eac0a1f19b990
+  custom:scripting/monoscript/fileName/Message.cs: 6525f110369b368a724db9468ed4c271 -> 671a789acb2c7a93d0b620fe02979957
+  custom:scripting/monoscript/fileName/TestTreeViewBuilder.cs: 2d150efabc530464f6f95abcead6b791 -> 6ec2bdd7d75f4f5e0b3318e1489ac19d
+  custom:scripting/monoscript/fileName/EditmodeWorkItemFactory.cs: 59e0f470d3c4d6fcf2997a182c89bbcb -> e9c8ba8d2a4b7d9a886e64626b2e6205
+  custom:scripting/monoscript/fileName/TestListenerWrapper.cs: d3b4dda00570273ec0c1794249fac5d6 -> 9bd83ba3a6a675f3c605795064caa62b
+  custom:scripting/monoscript/fileName/ExecutionSettings.cs: 3e46076abe70bbfac850fc39d98561b1 -> bbd5f229f5dcda0d2d7d6fe8eb266a59
+  custom:scripting/monoscript/fileName/CallbacksHolder.cs: 064e7d359062664728ef608c9f03a07c -> 8b4255bb9b31589c4c3dd9303007381d
+  custom:scripting/monoscript/fileName/CategoryFilterExtended.cs: 4662b13a61207dc88937c796423baa70 -> fc9bf6f795e045112c18a4c1343c1ae1
+  custom:scripting/monoscript/fileName/RequirePlatformSupportAttribute.cs: 7ce6733bee18de599a69cb974c92fdb6 -> 6918694e41aa1ffd5ee72bd04646d4bb
+  custom:scripting/monoscript/fileName/TestPlatform.cs: 1e3283087fad58204285b5e9c2e16b4e -> 63c69f9b78d9a1c2cdf167569fd572b6
+  custom:scripting/monoscript/fileName/RemoteTestResultData.cs: ff93ebb056d1cf8fdc7e897597b04ef6 -> 68a2b51f8872b9ef697b2155d9835735
+  custom:scripting/monoscript/fileName/IMonoBehaviourTest.cs: 272926e14fa72b11b0070eae8b5853ef -> 93dca3fac2d68012529173d3e7bc10a2
+  custom:scripting/monoscript/fileName/CoroutineTestWorkItem.cs: 8fab9934b84f896f44392a777ae472de -> 8a69ee5c1adc29acc0a66cb7df14cbcf
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UnityWorkItemDataHolder.cs: 5e123fac5cc49e9acfe91048eee308ae -> 94e44d74f673f889418b2b9926b6615c
+  custom:scripting/monoscript/fileName/ICallbacksHolder.cs: e330f681a4da017eb82339063a410722 -> 790e89a97c8150c3044e584386d3ba9a
+  custom:scripting/monoscript/fileName/UnityCombinatorialStrategy.cs: bd44b85caa82e1f08c977cc9d9157c40 -> e857e6faada8b59173cb249a8a6be6fa
+  custom:scripting/monoscript/fileName/PlayerLauncher.cs: 7004f613ecfe1e179e7b362c88c3ddb7 -> c1129f48ad00377c128c470482bb7e8e
+  custom:scripting/monoscript/fileName/CoroutineRunner.cs: bb2107d11619bb60075736a2632662be -> 06bef19f6905915189ed09a2db9f2885
+  custom:scripting/monoscript/fileName/ConstructDelegator.cs: 7526886647893577a45527c0f6393600 -> c271ca33e5434ac87e82546dd149c303
+  custom:scripting/monoscript/fileName/UnityLogCheckDelegatingCommand.cs: 109adc74b3ab14d952109f6ed35bdacf -> 410acedf83a5c4e9d5a212b5635d0c88
+  custom:scripting/monoscript/fileName/ILogScope.cs: dd29c4b8ed4c54280ca787c474cdd843 -> e99dd640a2ac2c8b1c0c97725f23440d
+  custom:scripting/monoscript/fileName/UnityWorkItem.cs: 03c602cd83845fe6265dc83816099666 -> ce02ef2c77c866afeb6c04a89a364a8a
+  custom:scripting/monoscript/fileName/IAssetsDatabaseHelper.cs: 8bbb0e39e3cfde6c5b6c11074d90971a -> 4f8027cddf715e38f75ab454f20fe051
+  custom:scripting/monoscript/fileName/ConstraintsExtensions.cs: 19d048a2938a4b2b178e7e91279126b7 -> 89e01f1f8de15d891db3bad70117d924
+  custom:scripting/monoscript/fileName/EditModeRunner.cs: 0c2c70d0e910f1733ef8492efbf3dda1 -> f1ceb581ae48e42ca32e80f796ce45bc
+  custom:scripting/monoscript/fileName/TestRunnerResult.cs: 2b3fdbda67626b6faa7139ccea15b17a -> 613fb3e1dfef14aa9d5aea2cd635ffff
+  custom:scripting/precompiled-assembly-types:UnityEditor.TestRunner: 1b08a5e3d69264f3b8177a3e839577fe -> 45aa65bb7e487868509e09d87069684c
+  custom:scripting/monoscript/fileName/UnityTestTimeoutException.cs: 7c70971bbddd1caf6485b8c5b935d369 -> b7ec28ea102309dc20886c45fff1e1b5
+  custom:scripting/monoscript/fileName/UtpMessageReporter.cs: 6f35c7d2ea8786c1fd8fe557180d6c38 -> 1ce82c57220e51532d6b3e5da0cecc24
+  custom:scripting/monoscript/fileName/EnumeratorStepHelper.cs: a2fa98a2f974f377b9c2905ce60dea0f -> 05022a723dcf173476ccb43403871168
+  custom:scripting/monoscript/fileName/PlaymodeWorkItemFactory.cs: a61a7bf2d749182a50c049a0ad4afb89 -> 8bb2d7c0ad22b08cf17b1748007ae8c3
+  custom:scripting/monoscript/fileName/RemoteTestData.cs: 5baf4798e5344c86aa4ccafb41b2624c -> 51ba1ddd57fb71948e60067806b9cfcd
+  custom:scripting/monoscript/fileName/StadiaPlatformSetup.cs: 589eaf4f5c2f63a79deb4c2735e3b746 -> 27e00e91e04b4888c1d6354fa4baa6a5
+  custom:scripting/monoscript/fileName/LogScope.cs: 51679d4f7708329af3d47e56656f8988 -> a032a8edefa3a04276b9f24e5047f2ac
+  custom:scripting/monoscript/fileName/TestPlanMessage.cs: 15cf5225dc1e7b1718be35fb09144b5b -> 6199b0505360321c39d00a607adaaf8d
+  custom:scripting/monoscript/fileName/ITestRunSettings.cs: 7462715f6a540bde0acfd50948410d32 -> a5342276210c7f86635118880184dc77
+  custom:scripting/monoscript/fileName/SetUpTearDownCommand.cs: 2a0e8cc178919ce84c52af1a4ddfce30 -> 684e5d1c75373405f8a6c9575324286f
+  custom:scripting/monoscript/fileName/EditorEnumeratorTestWorkItem.cs: 7bf37d3cd666bc3e840f63f05aae4d05 -> b8f886476b7c18f3c1cdeae30ec0c8ea
+  custom:scripting/precompiled-assembly-types:websocket-sharp:  -> 0723036bceb1f91a35fc5688554b7745
+  custom:scripting/precompiled-assembly-types:McpUnity.Editor:  -> 27b57ce3c6318979d1216f0435e3da92
+  custom:scripting/precompiled-assembly-types:Newtonsoft.Json:  -> a784019f7e79cf0f65e748d41d4ceb44
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.483 seconds
+The file 'MemoryStream' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+Fatal Error! The file 'MemoryStream' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+Crash!!!
+SymInit: Symbol-SearchPath: 'F:/Unity本体/2022.3.59f1c1/Editor/Data/Mono;.;F:\Unity\项目\My project (15);F:\Unity\项目\My project (15)\Library\BurstCache\JIT;F:\Unity本体\2022.3.59f1c1\Editor;C:\WINDOWS;C:\W', symOptions: 534, UserName: 'LENOVO'
+OS-Version: 10.0.0
+F:\Unity本体\2022.3.59f1c1\Editor\Unity.exe:Unity.exe (00007FF643830000), size: 90525696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2022.3.59.3933
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFBC85E0000), size: 2519040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFBC78B0000), size: 823296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFBC54E0000), size: 4157440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFBC52D0000), size: 1540096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFBC6150000), size: 1355776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFBC7C80000), size: 1859584 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFBC52A0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFBC6880000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFBC5170000), size: 1228800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFBC5010000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFBC8010000), size: 745472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+F:\Unity本体\2022.3.59f1c1\Editor\s3tcompress.dll:s3tcompress.dll (00007FFBA9A50000), size: 180224 (result: 0), SymType: '-deferred-', PDB: ''
+F:\Unity本体\2022.3.59f1c1\Editor\etccompress.dll:etccompress.dll (00007FFADDA90000), size: 5070848 (result: 0), SymType: '-deferred-', PDB: ''
+F:\Unity本体\2022.3.59f1c1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFAE6580000), size: 8019968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.7.0
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFBC7980000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.8246
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFBC80E0000), size: 684032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+F:\Unity本体\2022.3.59f1c1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFAFA4F0000), size: 1826816 (result: 0), SymType: '-deferred-', PDB: ''
+F:\Unity本体\2022.3.59f1c1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FFB05590000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFBC63E0000), size: 1146880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFBC6DB0000), size: 7790592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+F:\Unity本体\2022.3.59f1c1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 5783552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFBC66E0000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+F:\Unity本体\2022.3.59f1c1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFBAA0C0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1812.6001
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFBC6D40000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+F:\Unity本体\2022.3.59f1c1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFAFBB90000), size: 1187840 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\Windows.Storage.dll:Windows.Storage.dll (00007FFBC58E0000), size: 8830976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFBC81B0000), size: 3682304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFBC76E0000), size: 1667072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFBC8540000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFBC68B0000), size: 4747264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFBC7AC0000), size: 888832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFBA5110000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.51.36231.0
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFBA3230000), size: 638976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.51.36231.0
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFBC5450000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFBA1CF0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.51.36231.0
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFB619E0000), size: 1110016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFBC38F0000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFB9ED20000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFBBD300000), size: 1216512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFBC4F00000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8246
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFBB32A0000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFBC2420000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFBC34C0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+F:\Unity本体\2022.3.59f1c1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFADD1F0000), size: 8990720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFBB1580000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+F:\Unity本体\2022.3.59f1c1\Editor\NativeProxyHelper.dll:NativeProxyHelper.dll (00007FFAF8180000), size: 1789952 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFB97A30000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+F:\Unity本体\2022.3.59f1c1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFBA8B80000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFBC2630000), size: 282624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFBC1F20000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7705
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFBC4160000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+F:\Unity本体\2022.3.59f1c1\Editor\OpenRL.dll:OpenRL.dll (000001D8CB360000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
+C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFBC4430000), size: 442368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+F:\Unity本体\2022.3.59f1c1\Editor\embree.dll:embree.dll (00007FFADC200000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (0000000056DB0000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (0000000056D10000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+F:\Unity本体\2022.3.59f1c1\Editor\tbb.dll:tbb.dll (00007FFBA2580000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
+C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FFB7D410000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
+C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FFB7CEE0000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
+F:\Unity本体\2022.3.59f1c1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (000001D8CB140000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFBC4840000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8246
+C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL:CRYPTBASE.DLL (00007FFBC4730000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8246
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFBC50C0000), size: 688128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FFBC4CA0000), size: 331776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8115
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFBC3EC0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFBC2170000), size: 696320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\SHCORE.dll:SHCORE.dll (00007FFBC7E50000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFBC4F30000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\system32\IconCodecService.dll:IconCodecService.dll (00007FFB72FC0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFBC0340000), size: 2281472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFBC7F50000), size: 712704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FFBBF830000), size: 450560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FFBB14A0000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFBC8580000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8246
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFBBDC60000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFBBD790000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFBC39D0000), size: 1253376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FFB93AF0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FFB93AD0000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\system32\nlansp_c.dll:nlansp_c.dll (00007FFB93AA0000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8115
+C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FFB936C0000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.5074
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFBB32E0000), size: 548864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFBB1590000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+F:\Unity本体\2022.3.59f1c1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFADB3C0000), size: 1609728 (result: 0), SymType: '-deferred-', PDB: ''
+F:\Unity本体\2022.3.59f1c1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFB08290000), size: 540672 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFBABC30000), size: 626688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFBC4C70000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFBC0C00000), size: 2498560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFBC22B0000), size: 1302528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (00007FFBC3C30000), size: 385024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3912
+C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFBC3C10000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8115
+C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FFBBF9C0000), size: 397312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\System32\DriverStore\FileRepository\nvlti.inf_amd64_144938f242432a42\nvldumdx.dll:nvldumdx.dll (00007FFB07430000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9597
+C:\WINDOWS\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFBACBF0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\wldp.dll:wldp.dll (00007FFBC47D0000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\drvstore.dll:drvstore.dll (00007FFBACA70000), size: 1540096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFBC7880000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.4202
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFBC4710000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFBC3E20000), size: 233472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7705
+C:\WINDOWS\System32\DriverStore\FileRepository\nvlti.inf_amd64_144938f242432a42\nvgpucomp64.dll:nvgpucomp64.dll (00007FFAD4100000), size: 83193856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9597
+C:\WINDOWS\System32\DriverStore\FileRepository\nvlti.inf_amd64_144938f242432a42\Display.NvContainer\NvMessageBus.dll:NvMessageBus.dll (00007FFB9A270000), size: 3551232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.15.3538.9611
+C:\WINDOWS\System32\DriverStore\FileRepository\nvlti.inf_amd64_144938f242432a42\NvMemMapStoragex.dll:NvMemMapStoragex.dll (00007FFB79A30000), size: 1290240 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\DriverStore\FileRepository\nvlti.inf_amd64_144938f242432a42\nvwgf2umx.dll:nvwgf2umx.dll (00007FFACED50000), size: 87711744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9597
+C:\WINDOWS\system32\nvspcap64.dll:nvspcap64.dll (00007FFB70540000), size: 1339392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.7.247
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFBC3FE0000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\DriverStore\FileRepository\nvlti.inf_amd64_144938f242432a42\nvppex.dll:nvppex.dll (00007FFB34330000), size: 7491584 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9597
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFBACCB0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFBACC30000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFBABFA0000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFBABFC0000), size: 983040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFBAB9F0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+F:\Unity本体\2022.3.59f1c1\Editor\cudart64_90.dll:cudart64_90.dll (00007FFB80590000), size: 397312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.14.11.9000
+C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FFB754F0000), size: 483328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.6.0
+F:\Unity本体\2022.3.59f1c1\Editor\radeonrays.dll:radeonrays.dll (00007FFB704B0000), size: 557056 (result: 0), SymType: '-deferred-', PDB: ''
+F:\Unity本体\2022.3.59f1c1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFAFAC40000), size: 10825728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFBBFCD0000), size: 1073152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.8457
+C:\Windows\System32\Windows.FileExplorer.Common.dll:Windows.FileExplorer.Common.dll (00007FFB93C60000), size: 786432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFBBEB70000), size: 1482752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FFB94400000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\windows.staterepositoryclient.dll:windows.staterepositoryclient.dll (00007FFBBD430000), size: 294912 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\edputil.dll:edputil.dll (00007FFB8D270000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8115
+C:\WINDOWS\SYSTEM32\urlmon.dll:urlmon.dll (00007FFB9C620000), size: 1953792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.26100.8457
+C:\WINDOWS\SYSTEM32\iertutil.dll:iertutil.dll (00007FFB9C350000), size: 2899968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.26100.8457
+C:\WINDOWS\SYSTEM32\srvcli.dll:srvcli.dll (00007FFBA82E0000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\netutils.dll:netutils.dll (00007FFBC3730000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
+C:\Windows\System32\cldapi.dll:cldapi.dll (00007FFB8D330000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8457
+C:\WINDOWS\SYSTEM32\virtdisk.dll:virtdisk.dll (00007FFB93420000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFBC2A60000), size: 2367488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FFBC559FE0A (KERNELBASE) RaiseException
+0x00007FF645419700 (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FF64541A17D (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FF6460E2CCF (Unity) DebugStringToFilePostprocessedStacktrace
+0x00007FF6460E242A (Unity) DebugStringToFile
+0x00007FF64462C974 (Unity) CachedReader::OutOfBoundsError
+0x00007FF64462D004 (Unity) CachedReader::UpdateReadCache
+0x00007FF644972AEC (Unity) TransferField_NonArray<StreamedBinaryRead,Converter_String>
+0x00007FF6448E8C36 (Unity) ExecuteSerializationCommands<JSONRead>
+0x00007FF644902F78 (Unity) <lambda_580fa16bd23d18c3e466e7b58feca0a1>::operator()
+0x00007FF6448FCC51 (Unity) TransferScriptingObject<StreamedBinaryRead>
+0x00007FF6448FE559 (Unity) SerializableManagedRefTransfer::TransferScriptingObjectWithSerializedRefSupport<StreamedBinaryRead>
+0x00007FF6449167C6 (Unity) SerializableManagedRefTransfer::TransferBinaryInstanceOnly
+0x00007FF6448EA7AF (Unity) SerializableManagedRefTransfer::RestoreBackupImpl<SerializableManagedRefBackupGenerator>
+0x00007FF6448EA5D5 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007FF6449C5386 (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007FF64490987A (Unity) MonoManager::FinalizeReload
+0x00007FF644911069 (Unity) MonoManager::ReloadAssembly
+0x00007FF6458C17CB (Unity) LoadDomainAndUserAssemblies
+0x00007FF645DA9E84 (Unity) WorkerDomainReloadV2
+0x00007FF645DC9475 (Unity) <lambda_0b936eda6d5d83ccef452050900065da>::operator()
+0x00007FF645E06A82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007FF645DF2A2E (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007FF645DF4694 (Unity) asio::detail::win_iocp_io_context::run
+0x00007FF645E04E2C (Unity) IOService::Run
+0x00007FF645DD828F (Unity) AssetImportWorkerClient::Run
+0x00007FF645DA3A37 (Unity) RunAssetImportWorkerClientV2
+0x00007FF645DA3ABB (Unity) RunAssetImporterV2
+0x00007FF645599C5E (Unity) Application::InitializeProject
+0x00007FF645A2F5C5 (Unity) WinMain
+0x00007FF646DFB9EE (Unity) __scrt_common_main_seh
+0x00007FFBC78DE957 (KERNEL32) BaseThreadInitThunk
+0x00007FFBC85E427C (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/LENOVO/AppData/Local/Temp/Unity/Editor/Crashes
